@@ -14,7 +14,7 @@ import dev.tigr.ares.fabric.impl.modules.hud.HudElement;
  * @author Tigermouthbear
  * updated to 1.16.2 on 8/28/20
  */
-@Module.Info(name = "Watermark", description = "Shows an Ares logo on the hud overlay", category = Category.HUD, enabled = true, visible = false)
+@Module.Info(name = "Watermark", description = "Shows an Impact+2 logo on the hud overlay", category = Category.HUD, enabled = true, visible = false)
 public class Watermark extends HudElement {
     private static final LocationIdentifier ARES_LOGO = new LocationIdentifier("textures/logo/ares_logo_white.png");
     private static final int WIDTH = 48;
